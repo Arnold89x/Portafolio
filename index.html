@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Portafolio, Desarrollo, Web, Arnold">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 class="titulos">Portafolio</h1>
+        </header>
+
+        <nav id="navigation">
+            <a href="#aboutme">Sobre mi</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#github">Git Hub</a>
+            <a href="#contact">Contacto</a>
+            <br></br>
+        </nav>
+    </div>
+
+    <main id="content">
+
+            <h2 class="titulos" id="aboutme">Sobre mi</h2>
+
+            <div class="container-profile">
+                <img src="img/Imgn-Photoroom.png" alt="Imagen de Perfil" width="200">
+                <h3>Arnold Santiago Gil Maldonadoo</h3>
+                <h4>Analista y Desarrollador de Software</h4>
+            </div>
+            <br></br>
+            <p>
+                Un joven apasioando de 17 años que busca adquirir nuevos conocimentos cada dia sin estancarme y siempre mirando hacia el futuro.
+            </p>
+
+            <p>
+                Me gusta la tecnologia y la programacion, me gusta aprender cosas nuevas y me gusta trabajar en equipo.
+            </p>
+            <br></br>
+
+            <h4>Habilidades</h4>
+            <br></br>
+
+            <ul id="skills">
+                <li>HTML</li>
+                <li>Java</li>
+                <li>Arduino</li>
+                <li>C++</li>
+            </ul>
+            <br></br>
+        </section>
+
+
+        <section id="projects">
+            <h2 class="titulos">Proyectos</h2>
+            <br></br>
+
+            <div class="projects-container">
+
+                <!--Template Project Card-->
+                <div class="project-card">
+                    <img src="img/Casa-domotica.jpeg" alt="Imagen Proyecto">
+                    <br></br>
+                    <div class="project-info">
+                        <h4>Casa domotica</h4>
+                        <br></br>
+                        <p>Una casa semi-automatica que se rige apartir de sensores programados en el lenguaje de Arduino</p>
+                        <br></br>
+                        <h3>Sensores</h3>
+                        <br></br>
+                        <ul>
+                          <li>Sensor PIR: Utilizado para que detecte la llegada de un vehiculo al estacionamineto</li>
+                          <li>Boton: Utilizado para que genere un sonido por medio de un zumbador (Timbre)</li>
+                          <li>Zumbador: Utilizado para que genere un sonido al recibir la pusacion del boton</li>
+                          <li>Sensor de luz: Utilizado para que reciba la intensidad de la luz para encender los LEDS</li>
+                          <li>LED: Utilizado para indicar el funcionamiento de los sensores y la oscuridad</li>
+                          <li>Sensor de lluvia: Utilizado para cerrar servo-motores cuando sientan humedad</li>
+                          <li>Servo-Motores: Utilizados para mover objetos cuando reciba una señal</li>
+                          </ul>
+                          <br></br>
+                        <a href="">Link del proyecto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="img/Casa-domotica2.jpeg" alt="Imagen Proyecto">
+
+                    <div class="project-info">
+                        <h4>Portafolio Web</h4>
+                        <br></br>
+                        <p>Pagina desarrollada con html, css y js.</p>
+
+                        <a href="https://github.com/Arnold89x/Portafolio.git">Link del proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Seccion Blog-->
+        <section class="titulos">
+            <h2>Blog</h2>
+
+            <button>Publicar</button>
+            <div class="blog-list">
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="titulos">Contacto</h2>
+
+            <form action="">
+                <fieldset>
+                    <legend>Formulario de Contacto</legend>
+                    <label for="">Nombre:</label>
+                    <input type="text" name="" id="">
+
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
+        <br></br>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <section>
+        <p>Arnold Santiago Gil Maldonado</p>
+        <p>3124943853</p>
+        <p>arnoldsgm89x@gmail.com</p>
+        <p>GitHub: <a id="github" href="https://github.com/Arnold89x"> @Arnold89x</a></p>
+      </section>
+    </footer>
+</body>
+
+</html>
