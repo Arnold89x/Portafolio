@@ -15,3 +15,21 @@ img{
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
+a{
+  color: rgb(121, 121, 121);
+  padding: 10px;
+}
+
+h3{
+  color: rgb(121, 121, 121);
+}
+
+h4{
+  color: rgb(121, 121, 121);
+}
+
+ol, ul {
+  margin-left: 20px;
+  padding-left: 20px;
+}
